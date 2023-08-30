@@ -4,25 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
-    <link rel = "stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+<header class="header-container">
+    <h1>Weather Dashboard</h1>
+</header>
 <body>
-    <header class = "header-container">
-        <h1>Weather Dashboard</h1>
-    </header>
-    <section>
-        <h2>Search for city:</h2>
-        <input type="text" id="searching" placeholder="Type a City" class="city-search">
-        <button type="button" class="search-btn">Search City</button>
-    </section>
-    <section class="container-info">
-        <h2>Name of city</h2>
-        <p>Temp</p>
-        <p>Wind</p>
-        <p>Humidity</p>
-    </section>
+  
+    <main class="main-content">
+        <section class="search-container">
+            <h1>Search for city:</h1>
+            <input type="text" id="searching" placeholder="Type a City" class="city-search">
+            <button type="button" class="search-btn">Search City</button>
+        </section>
 
-   
-      <script src="./assets/js/script.js"></script>
+        
+
+        <section class="container-info">
+            <h2>Name of city date</h2>
+            <p>Temp</p>
+            <p>Wind</p>
+            <p>Humidity</p>
+        </section>
+    </main>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
