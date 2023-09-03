@@ -50,7 +50,7 @@ body {
     border-color: rgba(0, 0, 0, 0.582);
 }
 
-.search-btn, .cityButton {
+.search-btn {
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
@@ -59,6 +59,19 @@ body {
     color: white;
 }
 
-.search-btn:hover, .cityButton:hover {
+.search-btn:hover {
     background-color: rgb(21, 175, 226);
+}
+
+.cityButton {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(116, 116, 116);
+    color: rgb(0, 0, 0);
+}
+
+.cityButton:hover {
+    background-color: rgb(184, 184, 184);
 }
