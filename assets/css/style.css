@@ -63,7 +63,7 @@ body {
     background-color: rgb(21, 175, 226);
 }
 
-.cityButton {
+#portlandBtn, #losAngelesBtn, #lasVegasBtn, #newYorkBtn, #austinBtn, #chicagoBtn {
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
@@ -72,6 +72,10 @@ body {
     color: rgb(0, 0, 0);
 }
 
-.cityButton:hover {
+#portlandBtn:hover, #losAngelesBtn:hover, #lasVegasBtn:hover, #newYorkBtn:hover, #austinBtn:hover, #chicagoBtn:hover {
     background-color: rgb(184, 184, 184);
+}
+
+.icon {
+    max-width: 70px;
 }
