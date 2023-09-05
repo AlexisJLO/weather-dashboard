@@ -57,7 +57,7 @@ function fetchWeatherData(cityName) {
     .then(function (response) {
       return response.json();
     })
-// ...
+
 .then(forecastData => {
     console.log(forecastData);
     if (forecastData.cod === "200") {
@@ -110,9 +110,6 @@ function fetchWeatherData(cityName) {
       }
     }
   })
-// ...
-
-  
     
 }
 
