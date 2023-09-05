@@ -79,3 +79,11 @@ body {
 .icon {
     max-width: 70px;
 }
+.forecast-card {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background: radial-gradient( rgb(25, 198, 255),  rgb(25, 182, 235));
+    box-shadow: rgba(140, 75, 101, 0.24) 2px 8px 8px 2px;
+}
